@@ -1,4 +1,4 @@
-Iniciar repositório git na pasta: git init
+Iniciar repositório git na pasta: git init (caso ainda não inicializado)
 
 Visualizar status dos arquivos: git status
 
@@ -9,8 +9,10 @@ Remover do stage: git restore --staged
 
 Commitar: git commit -m "descrição"
 
-Empurrar do repositório local para remoto: git remote add <apelido> <link do repositório>
+Para cadastrar repositório: git remote add <apelido> <link do repositório>
 Ex: git remote add origin https://github.com/veniciusjacob/dio-desafio-github.git
+
+Para remover: git remote remove <apelido>
 
 Listar repositórios cadastrados: git remote -v
 
