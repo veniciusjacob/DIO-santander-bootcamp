@@ -1,0 +1,20 @@
+Iniciar repositório git na pasta: git init
+
+Visualizar status dos arquivos: git status
+
+Mover arquivo para stage: git add <nome>
+Mover todos arquivos para stage: git add .
+
+Remover do stage: git restore --staged
+
+Commitar: git commit -m "descrição"
+
+Empurrar do repositório local para remoto: git remote add <apelido> <link do repositório>
+Ex: git remote add origin https://github.com/veniciusjacob/dio-desafio-github.git
+
+Listar repositórios cadastrados: git remote -v
+
+Empurrar para o Github: git push <apelido> <local>
+Ex: git push origin master
+
+Clonar repositório: git clone <link>
